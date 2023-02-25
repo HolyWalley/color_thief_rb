@@ -1,0 +1,13 @@
+[package]
+name = "color_thief_rb"
+version = "0.1.0"
+edition = "2021"
+authors = ["HolyWalley <yasha.krasnov@gmail.com>"]
+license = "MIT"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+magnus = { version = "0.4" }
